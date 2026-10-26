@@ -1,0 +1,17 @@
+{
+  "name": "opencode-openai-local-models",
+  "version": "1.0.0",
+  "description": "Auto discover and sync local models from OpenAI-compatible endpoints into OpenCode",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  },
+  "bin": {
+    "opencode-local-models": "./sync.js",
+    "opencode-sync": "./sync.js"
+  },
+  "keywords": ["opencode", "plugin", "openai", "local-llm", "strata", "vllm", "llama.cpp"],
+  "author": "eunsung",
+  "license": "MIT"
+}
